@@ -1,20 +1,20 @@
-# dash-protocol
+# gobyte-protocol
 
-[![npm version](https://img.shields.io/npm/v/dash-protocol.svg)](https://www.npmjs.com/package/dash-protocol)
-[![Build Status](https://travis-ci.org/dashpay/dash-protocol.svg?branch=master)](https://travis-ci.org/dashpay/dash-protocol)
-[![Dependency Status](https://david-dm.org/dashpay/dash-protocol.svg)](https://david-dm.org/dashpay/dash-protocol)
+[![npm version](https://img.shields.io/npm/v/gobyte-protocol.svg)](https://www.npmjs.com/package/gobyte-protocol)
+[![Build Status](https://travis-ci.org/gobytecoin/gobyte-protocol.svg?branch=master)](https://travis-ci.org/gobytecoin/gobyte-protocol)
+[![Dependency Status](https://david-dm.org/gobytecoin/gobyte-protocol.svg)](https://david-dm.org/gobytecoin/gobyte-protocol)
 
-**Dash network protocol streams**
+**GoByte network protocol streams**
 
 This module encodes and decodes low-level network protocol data using streams.
 
 ## Usage
 
-`npm install dash-protocol`
+`npm install gobyte-protocol`
 
 ```js
 var net = require('net')
-var bp = require('dash-protocol')
+var bp = require('gobyte-protocol')
 
 var decoder = bp.createDecodeStream()
 decoder.on('data', function (message) { console.log(message) })
